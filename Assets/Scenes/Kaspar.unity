@@ -221,7 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _UseFixedUpdate: 0
   _Mode: 0
-  _Anchor: {fileID: 2058962890}
+  _Anchor: {fileID: 929811786}
   _FrameForceToFollowAnchor: 0
   _IsInternalUpdateEnabled: 0
   _IsFixedUpdateEnabled: 0
@@ -291,7 +291,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: cf20a293d95368b4188d5c4bb545bcc8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cf20a293d95368b4188d5c4bb545bcc8,
         type: 3}
@@ -438,7 +438,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: afada8501609b6041abd85521945fc80,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: afada8501609b6041abd85521945fc80,
         type: 3}
@@ -493,7 +493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _IsEnabled: 1
   _IsXboxControllerEnabled: 0
-  _ViewActivator: 2
+  _ViewActivator: 0
 --- !u!4 &454909327
 Transform:
   m_ObjectHideFlags: 0
@@ -556,95 +556,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &594720166
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.516
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.000000014901161
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.0067856
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4507128152902298631, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 515738369474e44408c66a7290213398, type: 2}
-    - target: {fileID: 919132149155446097, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_Name
-      value: MainChar01
-      objectReference: {fileID: 0}
-    - target: {fileID: 984303225746862465, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7ef089a836b4b0143a702b727ccb2575, type: 2}
-    - target: {fileID: 984303225746862465, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 984303225746862465, guid: 1c68ff2728042c246b04e74b1d068d5a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: b0fb1192d922b7444af489e8517c5beb, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c68ff2728042c246b04e74b1d068d5a, type: 3}
 --- !u!1001 &603560724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -808,6 +719,343 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &776132044
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.7360077
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6190997e-18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.1795377
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4507128152902298631, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 515738369474e44408c66a7290213398, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_Name
+      value: MainChar01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 984303225746862465, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6986821856f8781498dca5a17aaed995, type: 2}
+    - target: {fileID: 984303225746862465, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b0fb1192d922b7444af489e8517c5beb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 1c68ff2728042c246b04e74b1d068d5a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 48232326ff787a44c8f88bda3b9edbbf, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c68ff2728042c246b04e74b1d068d5a, type: 3}
+--- !u!1 &929811785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1c68ff2728042c246b04e74b1d068d5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 776132044}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &929811786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 776132044}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &929811787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929811785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030037c7f181647488f269f2490d7486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _IsEnabled: 1
+  _Animator: {fileID: 0}
+  _InputSourceOwner: {fileID: 454909325}
+  _AutoFindInputSource: 1
+  AnimatorChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  MotionTestActivateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  MotionActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  MotionDeactivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  ActionTriggeredEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UseSimulatedInput: 0
+  _CameraTransform: {fileID: 68402178}
+  _AutoFindCameraTransform: 1
+  _IsTimeSmoothingEnabled: 0
+  _MaxSpeed: 5.668
+  _RotationSpeed: 360
+  MotionLayers:
+  - _GUID: 
+    _Name: Locomotion
+    _IgnoreMotionOverride: 0
+    _AnimatorLayerIndex: 0
+    MotionDefinitions:
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.Idle, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "0", "OverrideLayers" : "False", "ActionAlias" : "ActivateRotation", "IsEnabled"
+      : "True", "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "1",
+      "Pack" : "Basic", "Tags" : "", "FormCondition" : "0", "RotateWithCamera" :
+      "False", "RotationToCameraSpeed" : "360", "RotateWithInput" : "False", "RotateWithMovementInputX"
+      : "False", "RotationSpeed" : "120", "RotationSmoothing" : "0.1", "ForceViewOnInput"
+      : "False"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.Fall, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "20", "OverrideLayers" : "False", "ActionAlias" : "Jump", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "0", "Pack"
+      : "Basic", "Tags" : "", "MinFallHeight" : "0.3", "Impulse" : "0", "ConvertToHipBase"
+      : "False", "HipBoneName" : "", "IsMomentumEnabled" : "True", "IsControlEnabled"
+      : "False", "ControlSpeed" : "2", "RequiredOverheadDistance" : "0", "MaxJumpTime"
+      : "5", "LaunchVelocityOverride" : "(0, 0, 0)", "RotateWithCamera" : "False",
+      "RotateWithCameraAlias" : "ActivateRotation", "RotationToCameraSpeed" : "360"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.WalkRunPivot_v2, ootii,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "Name" : "", "Form"
+      : "-1", "Priority" : "5", "OverrideLayers" : "False", "ActionAlias" : "Run",
+      "IsEnabled" : "True", "ReactivationDelay" : "0", "ShowDebug" : "False", "Category"
+      : "2", "Pack" : "Basic", "Tags" : "", "FormCondition" : "0", "DefaultToRun"
+      : "False", "WalkSpeed" : "0", "RunSpeed" : "0", "RotateWithCamera" : "True",
+      "RotateActionAlias" : "ActivateRotation", "RotationSpeed" : "270", "StartInMove"
+      : "False", "StartInWalk" : "False", "StartInRun" : "False", "UseStartTransitions"
+      : "False", "UseStopTransitions" : "False", "UseTapToPivot" : "False", "TapToPivotDelay"
+      : "0.2", "MinPivotAngle" : "20", "SmoothingSamples" : "10"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.Jump, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "15", "OverrideLayers" : "False", "ActionAlias" : "Jump", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "0", "Pack"
+      : "Basic", "Tags" : "", "Impulse" : "10", "ConvertToHipBase" : "False", "HipBoneName"
+      : "", "IsMomentumEnabled" : "True", "IsControlEnabled" : "True", "ControlSpeed"
+      : "2", "RequiredOverheadDistance" : "0", "MaxJumpTime" : "5", "LaunchVelocityOverride"
+      : "(0, 0, 0)", "RotateWithCamera" : "False", "RotateWithCameraAlias" : "ActivateRotation",
+      "RotationToCameraSpeed" : "360"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.RunningJump, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "16", "OverrideLayers" : "False", "ActionAlias" : "Jump", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "0", "Pack"
+      : "Basic", "Tags" : "", "Impulse" : "7", "ConvertToHipBase" : "True", "HipBoneName"
+      : "", "MinFallHeight" : "2"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.BalanceWalk, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "15", "OverrideLayers" : "False", "ActionAlias" : "", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "0", "Pack"
+      : "Basic", "Tags" : "", "MinBeamWidth" : "0.05", "MaxBeamWidth" : "0.1", "RotateWithInput"
+      : "True", "RotateWithView" : "False", "RotationSpeed" : "120", "ActivateUsingRaycasts"
+      : "True", "ActivateUsingLayers" : "False", "BalanceLayers" : "0"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.Climb_0_5m, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "30", "OverrideLayers" : "True", "ActionAlias" : "Jump", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "5", "Pack"
+      : "Basic", "Tags" : "", "MinDistance" : "0.2", "MaxDistance" : "0.65", "MinHeight"
+      : "0.5", "MaxHeight" : "0.8", "ClimbableLayers" : "1", "ReachOffset1" : "0.02",
+      "ReachOffset2" : "-0.05"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.Climb_1m, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "30", "OverrideLayers" : "True", "ActionAlias" : "Jump", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "5", "Pack"
+      : "Basic", "Tags" : "", "MinDistance" : "0.2", "MaxDistance" : "0.825", "MinHeight"
+      : "0.8", "MaxHeight" : "1.4", "ClimbableLayers" : "1", "ReachOffset1" : "0.02",
+      "ReachOffset2" : "-0.1"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.Climb_1_8m, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "30", "OverrideLayers" : "True", "ActionAlias" : "Jump", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "5", "Pack"
+      : "Basic", "Tags" : "", "MinDistance" : "0.25", "MaxDistance" : "0.825", "MinHeight"
+      : "1.4", "MaxHeight" : "2.4", "HandGrabOffset" : "0.13", "ClimbableLayers"
+      : "1", "ReachOffset1" : "(0, -1.6, -0.1)", "ReachOffset2" : "(0, 0, -0.5)",
+      "ReachOffset3" : "(-0.1, -0.88999999, -0.1)", "ReachOffset4" : "(-0.15000001,
+      0.0099999998, 0.2)"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.Climb_2_5m, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "30", "OverrideLayers" : "True", "ActionAlias" : "Jump", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "5", "Pack"
+      : "Basic", "Tags" : "", "MinDistance" : "0.25", "MaxDistance" : "0.85", "MinHeight"
+      : "2.4", "MaxHeight" : "3.1", "HandGrabOffset" : "0.13", "ClimbableLayers"
+      : "1", "ReachOffset1" : "(0, -2, -0.30000001)", "ReachOffset2" : "(0.1, 0,
+      0)", "ReachOffset3" : "(0, -0.85000002, -0.1)", "ReachOffset4" : "(0.1, 0,
+      0.1)", "ReachOffset5" : "(0, -2.0999999, -0.69999999)", "ReachOffset6" : "(0,
+      -1.6720001, -0.389)", "ReachOffset7" : "(0, -0.85000002, -0.15000001)", "ReachOffset8"
+      : "(0, 0, 0.1)"}'
+    - '{, "Type" : "com.ootii.Actors.AnimationControllers.ClimbCrouch, ootii, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null", "Name" : "", "Form" : "-1", "Priority"
+      : "20", "OverrideLayers" : "True", "ActionAlias" : "Jump", "IsEnabled" : "True",
+      "ReactivationDelay" : "0", "ShowDebug" : "False", "Category" : "5", "Pack"
+      : "Basic", "Tags" : "", "MinGroundDistance" : "0.3", "MinRegrabDistance" :
+      "1", "HandGrabOffset" : "0.13", "BodyTargetOffset" : "(0, -1.35, -0.60000002)",
+      "ExitPositionOffset" : "(0, 0.015, 0)", "ToTopVelocity" : "(0, 0, 0)", "ClimbableLayers"
+      : "1", "MinSideSpaceForMove" : "0.6"}'
+  _ShowDebug: 0
+  _ShowDebugForAllMotions: 0
+  _AnimatorClearType: 0
+  _AnimatorClearDelay: 0.2
+  _StoredGameObjects: []
+  EditorTabIndex: 1
+  EditorLayerIndex: 0
+  EditorMotionIndex: 2
+  EditorPackIndex: 0
+  EditorFilterText: 
+  EditorFilterGroupIndex: 0
+  EditorShowEvents: 0
+  EditorShowDebug: 0
+  EditorShowSettings: 0
+  EditorShowTags: 0
+--- !u!114 &929811788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929811785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6696137b9a781c4ab59158926ed71cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _IsInternalUpdateEnabled: 1
+  _IsFixedUpdateEnabled: 0
+  _FixedUpdateFPS: 60
+  EditorComponentInitialized: 1
+  _IsEnabled: 1
+  _UseTransformPosition: 0
+  _UseTransformRotation: 1
+  _ProcessInLateUpdate: 1
+  _StateCount: 20
+  _InvertRotationOrder: 0
+  _ExtrapolatePhysics: 0
+  _IsGravityEnabled: 1
+  _IsGravityRelative: 0
+  _Gravity: {x: 0, y: 0, z: 0}
+  _ApplyGravityInFixedUpdate: 0
+  _Height: 1.8
+  _Radius: 0.35
+  _Mass: 2
+  _SkinWidth: 0.01
+  _AltSkinWidth: 0.5
+  _GroundingStartOffset: 1
+  _GroundingDistance: 3
+  _IsGroundingLayersEnabled: 0
+  _GroundingLayers: 1
+  _GroundDampenFactor: 0.92
+  _BaseRadius: 0.1
+  _FixGroundPenetration: 1
+  _ForceGrounding: 1
+  _ForceGroundingDistance: 0.3
+  _IsCollisionEnabled: 1
+  _StopOnRotationCollision: 0
+  _AllowPushback: 0
+  _CollisionLayers: 1
+  _OverlapRadius: 0.9
+  _OverlapCenter: {x: 0, y: 0.9, z: 0}
+  _IsSlidingEnabled: 0
+  _MinSlopeAngle: 20
+  _MinSlopeGravityCoefficient: 1
+  _MaxSlopeAngle: 45
+  _UseStepHeightWithMaxSlope: 1
+  _SlopeMovementStep: 0.01
+  _OrientToGround: 0
+  _KeepOrientationInAir: 0
+  _OrientToGroundDistance: 2
+  _OrientToGroundSpeed: 1
+  _MinOrientToGroundAngleForSpeed: 5
+  _MaxStepHeight: 0.3
+  _MinStepDepth: 0.25
+  _StepUpSpeed: 0.75
+  _MaxStepUpAngle: 5
+  _StepDownSpeed: 0.75
+  _FreezePositionX: 0
+  _FreezePositionY: 0
+  _FreezePositionZ: 0
+  _FreezeRotationX: 0
+  _FreezeRotationY: 0
+  _FreezeRotationZ: 0
+  _ShowDebug: 0
+  mBodyShapeDefinitions:
+  - '{, "Type" : "com.ootii.Actors.BodyCapsule, ootii, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null", "Offset" : "(0, 0.60000002, 0)", "Radius" : "0.30000001",
+    "EndTransform" : "rig/root/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-neck/DEF-head",
+    "EndOffset" : "(0, 0, 0)", "Name" : "Body Capsule", "UseUnityColliders" : "True",
+    "IsEnabledOnGround" : "True", "IsEnabledOnSlope" : "True", "IsEnabledAboveGround"
+    : "True"}'
+  - '{, "Type" : "com.ootii.Actors.BodySphere, ootii, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null", "Offset" : "(0, 0.25, 0)", "Radius" : "0.25", "Name" :
+    "Foot Sphere", "UseUnityColliders" : "True", "IsEnabledOnGround" : "False", "IsEnabledOnSlope"
+    : "False", "IsEnabledAboveGround" : "True"}'
+  EditorBodyShapeIndex: -1
+  EditorShowAdvanced: 0
+  EditorCollideWithObjects: 1
+  EditorWalkOnWalls: 0
+  EditorSlideOnSlopes: 0
+  EditorRespondToColliders: 0
 --- !u!1 &1297650280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,7 +1490,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 96a3f1b7c3d085e43bab25d89ded37ff,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96a3f1b7c3d085e43bab25d89ded37ff,
         type: 3}
@@ -1311,7 +1559,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 27ec54df5aa55a84f878184af2715421,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27ec54df5aa55a84f878184af2715421,
         type: 3}
@@ -1538,34 +1786,3 @@ MonoBehaviour:
   showAdditionalSettings: 0
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
---- !u!1 &2058962889 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1c68ff2728042c246b04e74b1d068d5a,
-    type: 3}
-  m_PrefabInstance: {fileID: 594720166}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2058962890 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1c68ff2728042c246b04e74b1d068d5a,
-    type: 3}
-  m_PrefabInstance: {fileID: 594720166}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &2058962891
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058962889}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 48232326ff787a44c8f88bda3b9edbbf, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
