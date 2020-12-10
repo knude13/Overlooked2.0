@@ -1,5 +1,43 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7219262724077093902
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  postExposure:
+    m_OverrideState: 1
+    m_Value: -0.25
+  contrast:
+    m_OverrideState: 1
+    m_Value: -12
+    min: -100
+    max: 100
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -180
+    max: 180
+  saturation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -100
+    max: 100
 --- !u!114 &-7203711556966469173
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -142,7 +180,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 2.15
+    m_Value: 1.5
     min: 0
     max: 4
   directLightingStrength:
@@ -230,6 +268,7 @@ MonoBehaviour:
   - {fileID: 6513336035077406698}
   - {fileID: -675305714705066249}
   - {fileID: 2782842544838166502}
+  - {fileID: -7219262724077093902}
 --- !u!114 &2782842544838166502
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -249,7 +288,7 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 1.98
+    m_Value: 2.03
     min: 0
   maximumVelocity:
     m_OverrideState: 0
