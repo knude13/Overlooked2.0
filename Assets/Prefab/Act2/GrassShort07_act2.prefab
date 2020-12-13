@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 5993127737202106939}
   - component: {fileID: 1545229752375596362}
   m_Layer: 0
-  m_Name: GrassShort07
+  m_Name: GrassShort07_act2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,11 +127,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.020461317
+  - screenRelativeHeight: 0.06705292
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 3874078742316024155}
-  - screenRelativeHeight: 0.014691418
+  - screenRelativeHeight: 0.033510774
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6049007704903375069}

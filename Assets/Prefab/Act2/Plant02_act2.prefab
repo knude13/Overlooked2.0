@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 8105835973167613335}
   - component: {fileID: 3902273933523792614}
   m_Layer: 0
-  m_Name: Plant02 (6)
+  m_Name: Plant02_act2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,15 +373,15 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 8276226414621595921}
-  - screenRelativeHeight: 0.125
+  - screenRelativeHeight: 0.1255447
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1383951458238054931}
-  - screenRelativeHeight: 0.0625
+  - screenRelativeHeight: 0.09404914
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6628963238233370877}
-  - screenRelativeHeight: 0.01
+  - screenRelativeHeight: 0.059054054
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 4110017491066352270}
