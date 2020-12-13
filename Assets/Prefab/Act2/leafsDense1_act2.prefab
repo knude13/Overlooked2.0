@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 6201802955869146131}
   - component: {fileID: 1174073116280945506}
   m_Layer: 0
-  m_Name: leafsDense1
+  m_Name: leafsDense1_act2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,15 +373,15 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.04964889
+  - screenRelativeHeight: 0.21146338
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 4911121683823868201}
-  - screenRelativeHeight: 0.032339193
+  - screenRelativeHeight: 0.08713476
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5894199448268268299}
-  - screenRelativeHeight: 0.019843757
+  - screenRelativeHeight: 0.040259767
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 3858698108064602294}
